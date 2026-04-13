@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+frontend/node_modules/
+frontend/dist/
+
+# Databases & local state
+backend/*.db
+.DS_Store
+*.local
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Build artifacts
+.gemini/
+.system_generated/
+walkthrough*.md
+implementation_plan.md
+task.md
+research_notes.md
+analysis_results.md
+experiment_results.md

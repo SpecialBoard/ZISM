@@ -1,0 +1,26 @@
+/* Auth.mobile.css - Mobile Overrides */
+@media screen and (max-width: 768px) {
+  .auth-card {
+    padding: 24px;
+    width: 90%;
+  }
+
+  .auth-card > div { /* Target the glass surface wrapper */
+    width: 100% !important;
+  }
+
+  .auth-back-wrapper {
+    top: 16px;
+    left: 16px;
+  }
+
+  .auth-back-wrapper > div {
+    width: 90px !important;
+    height: 40px !important;
+  }
+
+  .back-btn-pill {
+    padding: 0 12px;
+    font-size: 12px;
+  }
+}

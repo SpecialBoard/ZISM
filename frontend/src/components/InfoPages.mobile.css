@@ -1,0 +1,61 @@
+/* InfoPages.mobile.css - Mobile Overrides */
+@media screen and (max-width: 768px) {
+  .info-content-wrapper {
+    padding: 24px;
+    width: 95%;
+  }
+
+  .info-back-wrapper {
+    top: 16px;
+    left: 16px;
+    z-index: 20;
+  }
+
+  /* Scale down the Glass pill for the back button */
+  .info-back-wrapper > div {
+    width: 90px !important;
+    height: 40px !important;
+  }
+
+  .back-btn-pill {
+    padding: 0 12px;
+    font-size: 12px;
+  }
+
+  .back-btn-pill svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .info-header {
+    margin-bottom: 24px;
+    margin-top: 48px; /* Give space for back button */
+  }
+
+  .info-header h1 {
+    font-size: 1.8rem;
+    letter-spacing: -1px;
+  }
+
+  .info-card-wide {
+    padding: 20px !important;
+  }
+
+  .info-card-wide h3 {
+    font-size: 1.1rem;
+  }
+
+  .info-card-wide p {
+    font-size: 0.9rem;
+  }
+
+  .faq-question {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+
+  .faq-answer-inner {
+    padding: 0 16px 16px 16px;
+    font-size: 0.9rem;
+  }
+}

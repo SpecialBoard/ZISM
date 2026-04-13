@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { api } from '../utils/api';
 import './Auth.css';
+import './Auth.mobile.css';
 import Grainient from './Grainient';
 import GlassSurface from './GlassSurface';
 

@@ -1,0 +1,68 @@
+/* Landing.mobile.css - Mobile Overrides */
+@media screen and (max-width: 768px) {
+  .landing-nav {
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .nav-brand {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .nav-links-wrapper {
+    position: relative;
+    left: auto;
+    transform: none;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .nav-links-wrapper > div {
+    width: 100% !important; /* Force width override on the purely inline-styled GlassSurface */
+    height: auto !important;
+    padding: 8px 4px;
+  }
+
+  .nav-links {
+    gap: 0px;
+  }
+
+  .nav-pill-btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .landing-hero {
+    padding-bottom: 10vh;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+    letter-spacing: -1.5px;
+  }
+
+  .hero-subheading {
+    font-size: 1rem;
+    padding: 0 24px;
+  }
+
+  .landing-footer-left,
+  .landing-footer-center {
+    display: none;
+  }
+
+  .landing-footer-right {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+    text-align: center;
+    width: 90%;
+    max-width: 300px;
+    font-size: 12px;
+    color: #888;
+  }
+}

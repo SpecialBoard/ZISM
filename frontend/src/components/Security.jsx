@@ -3,6 +3,7 @@ import Grainient from './Grainient';
 import GlassSurface from './GlassSurface';
 import { ArrowLeft } from 'lucide-react';
 import './InfoPages.css';
+import './InfoPages.mobile.css';
 import './Auth.css'; // Reusing back button pill styles
 
 export default function Security({ onBack }) {

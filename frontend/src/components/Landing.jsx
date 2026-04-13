@@ -2,6 +2,7 @@ import React from 'react';
 import Grainient from './Grainient';
 import GlassSurface from './GlassSurface';
 import './Landing.css';
+import './Landing.mobile.css';
 
 export default function Landing({ onLaunch, onSecurity, onDocs, onFAQ }) {
   return (

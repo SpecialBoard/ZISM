@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { api } from '../utils/api';
-import { Send, UserPlus, LogOut, MessageSquare } from 'lucide-react';
+import { LogOut, Send, Plus, Fingerprint, UserPlus, MessageSquare } from 'lucide-react';
 import './Dashboard.css';
+import './Dashboard.mobile.css';
 import GlassSurface from './GlassSurface';
 import Grainient from './Grainient';
 

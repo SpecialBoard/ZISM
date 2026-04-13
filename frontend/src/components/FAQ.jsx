@@ -3,6 +3,7 @@ import Grainient from './Grainient';
 import GlassSurface from './GlassSurface';
 import { ArrowLeft, ChevronDown } from 'lucide-react';
 import './InfoPages.css';
+import './InfoPages.mobile.css';
 import './Auth.css';
 
 const FAQItem = ({ question, answer }) => {

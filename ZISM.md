@@ -3,7 +3,7 @@
 > *"A privacy-first messaging backend where users connect via codes, messages are encrypted, and data automatically disappears."*
 
 **Stack:** FastAPI · Python · SQLite → PostgreSQL  
-**Author:** Sami Khan · [samikhan.in](https://samikhan.in)  
+**Author:** Rashad Ahmed
 **Type:** Hobby Project · GitHub Portfolio
 
 ---

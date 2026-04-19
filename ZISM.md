@@ -191,4 +191,4 @@ A backend messaging system built for privacy. No emails, no phone numbers — ju
 
 ---
 
-*ZISM v1.0 · 2025 · samikhan.in*
+*ZISM v1.0 · 2026 ·
